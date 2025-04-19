@@ -1,0 +1,58 @@
+{
+  "name": "Frankines",
+  "bucket": "Frankines",
+  "preset": "angular",
+  "env": "production",
+  "prefix": "20250419043630",
+  "not-first-run": true,
+  "function": {
+    "id": 43096,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "azion/args.json",
+    "instance-id": 40417,
+    "instance-name": "__DEFAULT__",
+    "cache-id": 0
+  },
+  "application": {
+    "id": 1745031004,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1745038429,
+    "name": "Frankines",
+    "domain_name": "wpvkaybnc5.map.azionedge.net",
+    "url": "https://wpvkaybnc5.map.azionedge.net"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [
+    {
+      "origin-id": 208927,
+      "origin-key": "ceb5908f-48ba-4b46-bc4b-c5144ea0bfc3",
+      "name": "origin-storage-default"
+    }
+  ],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 397834,
+        "name": "Set Storage Origin for All Requests",
+        "phase": "request"
+      },
+      {
+        "id": 397835,
+        "name": "Deliver Static Assets",
+        "phase": "request"
+      },
+      {
+        "id": 397836,
+        "name": "Redirect to index.html",
+        "phase": "request"
+      }
+    ]
+  },
+  "cache-settings": []
+}
